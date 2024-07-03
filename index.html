@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/utility.css">
+</head>
+
+<body>
+    <div class="container flex ">
+        <div class="left">
+            <div class="home bg-grey rounded p-1">
+                <div class="logo">
+                    <img class="invert" src="img/logo.svg" alt=""> 
+                </div>
+                <div class="home ">
+                    <ul>
+                        <li><img class="invert" src="img/home.svg" alt="home">Home</li>
+                        <li><img class="invert" src="img/search.svg" alt="home">Search</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="library bg-grey rounded p-1">
+                <div class="heading ">
+                    <img class="invert" width="20px" src="img/library.svg" alt="">
+                    <h3>Your library</h3>
+                </div>
+                <div class="songplaylist">
+                    <ul>
+                        
+                    </ul>
+                </div>
+
+                <footer>
+
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+
+
+                </footer>
+
+            </div>
+
+
+        </div>
+        <div class="right bg-grey ">
+            <div class="header">
+                <div class="nav">
+                    <img class="invert" src="img/leftarrow.svg" alt="">
+                    <img class="invert" src="img/rightarrow.svg" alt="">
+                </div>
+                <div class="buttons">
+                    <button class="btnsign">Sign up</button>
+                    <button class="btnlog">Log in</button>
+                </div>
+            </div>
+
+            <div class="spotifyPlaylist">
+                <h1>Spotify Playlist</h1>
+                <div class="cardContainer">
+                    </div>
+
+
+
+            <div class="playbar">
+                <div class="bar">
+                    <div class="song"></div>
+
+                    <div class="songbutton">
+                        <img id="prev" src="img/prevplay.svg" alt="">
+                        <img id="playId" src="img/playbutton.svg" alt="">
+                        <img id="next" src="img/nextplay.svg" alt="">
+                    </div>
+                    <div class="volumebar">
+                        <div class="songtime"></div>
+                        <div class="volume">
+                            <img src="img/volume.svg" alt="">
+                            <input type="range" name="volume" id="range">
+                        </div>
+                    </div>
+                   
+                    
+                    
+                </div>
+            
+                <div class="seekbar">
+                    <div class="circle"></div>
+                </div>
+
+               
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>

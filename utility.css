@@ -1,0 +1,41 @@
+.border-red{
+    border: 2px solid red;
+
+}
+.flex{
+    display: flex;
+    gap: 3px;
+}
+.bg-black{
+    background-color: black;
+}
+.invert{
+    filter:invert(1);
+}
+.bg-grey{
+    background-color:#121212 ;
+    color: white;
+}
+.m-1{
+    margin: 10px;
+}
+.p-1{
+    padding: 10px;
+}
+.rounded{
+    border-radius: 7px;
+}
+/* Apply the custom scrollbar to the entire page */
+body {
+    scrollbar-color: #000000 #333333; /* Black track and dark-grey handle */
+}
+
+/* Optional: Adjust the scrollbar width */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+/* Optional: Style the scrollbar handle (thumb) */
+::-webkit-scrollbar-thumb {
+    background-color: #888888; /* Dark-grey handle color */
+}
